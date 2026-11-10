@@ -2,18 +2,20 @@ File dan folder terkait:
 app.js => routes => controllers => models
 
 PathPendukung dan PathUtama lihat pada file daftar topik (SPON)
+PathPendukung = Mesin
+PathUtama = Order Cetak
 
 Model
-- prodiModel.js			=> PathPendukung => Contoh: kategoriModel.js
-- mahasiswaModel.js		=> PathUtama	 => Contoh: bukuModel.js
+- MesinModel.js			=> PathPendukung => Contoh: MesinModel.js
+- OrderCetakModel.js		=> PathUtama	 => Contoh: OrderCetakModel.js
 
 Controller
-- prodiController.js		=> kategoriController.js
-- mahasiswaController.js	=> bukuController.js
+- MesinController.js		=> MesinController.js
+- OrderCetakController.js	=> OrderCetakController.js
 
 Route
-- prodiRoute.js			=> kategoriRoute.js
-- mahasiswaRoute.js		=> bukuRoute.js
+- MesinRoute.js			=> MesinRoute.js
+- OrderCetakRoute.js		=> OrderCetakRoute.js
 
 Clone repository: https://github.com/nurrachmat/restful-api-app
 
